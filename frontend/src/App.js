@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import data from "./data";
+import Product from "./components/Product";
 function App() {
   return (
     <div className="grid-container">
@@ -17,9 +18,8 @@ function App() {
       </header>
       <main>
         <div className="row center">
-          {" "}
-          {data.products.map((products) => (
-            <product key={products._id} products={products}></product>
+          {data.product.map((product) => (
+            <Product key={product._id} product={product}></Product>
           ))}
         </div>
       </main>
