@@ -24,6 +24,7 @@ export default function ProductScreen(props) {
                 rating={product.numReviews}
                 numReviews={product.numReviews}
               ></Rating>
+              <h1>holi</h1>
             </li>
             <li>Price: ${product.price}</li>
             <li>
