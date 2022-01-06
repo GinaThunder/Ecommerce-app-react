@@ -67,6 +67,16 @@ a:hover {
   color: #ff8000;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-top: 5 rem;
+}
+
 header a {
   color: #ffffffff;
   padding: 1rem;
@@ -85,6 +95,15 @@ a.brand {
   align-items: center;
 }
 
+.row.top {
+  align-items: flex-start;
+}
+.col-1 {
+  flex: 1 1 25rem;
+}
+.col-2 {
+  flex: 2 1 50rem;
+}
 .row.center {
   justify-content: center;
 }
@@ -130,4 +149,20 @@ img.medium {
 
 .rating span:last-child {
   color: #404040;
+}
+
+/* alert */
+
+.success {
+  color: #20a020;
+}
+
+.error {
+  color: #a02020;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
 }
